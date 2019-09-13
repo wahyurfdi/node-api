@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "percobaan_migrate",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "gzxtndwunguoey",
+    "password": "948219f75ffa0dd9bed55c4fb1406982eb47fd78c8cb0df1d09931bd867d4a79",
+    "port" : 5432,
+    "database": "de5tf07jutjerl",
+    "host": "ec2-54-235-92-244.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "ssl": true
+  }
+}
