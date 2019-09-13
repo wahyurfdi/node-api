@@ -129,7 +129,7 @@ function getList(list){
 
 function getFiles(files){
     let temp = []
-    const link = 'https://api-pkbl.herokuapp.com'
+    const link = 'https://api-pkbl-v1.herokuapp.com'
 
 
     for(let i=0;i<files.length;i++){
