@@ -9,7 +9,7 @@ module.exports.login = async (req,res) => {
     const body = req.body
     res.setHeader('content-type', 'application/json')
 
-    User.find({
+    User.findOne({
         where: {
             username: body.username,
             password: body.password  //crypto.createHash('md5').update(body.password).digest('hex')
