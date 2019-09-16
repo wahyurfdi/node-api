@@ -29,7 +29,7 @@ module.exports.login = async (req,res) => {
         }
         let status = temp.status
 
-        if(user0){
+        if(user){
             status.auth = true
             status.code = 200
             status.message = 'Logged!'
